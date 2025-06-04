@@ -16,3 +16,6 @@ This repository contains various sketches written in [Processing (Java mode)](ht
 - **sketch_250430a** – Demonstrates nested transformations using `pushMatrix()` and `popMatrix()` with a rotating red square, a counter‑rotating blue square, and a pulsating green circle.
 - **sketch_250430b** – Shows multiple independent objects (two squares and a spinning triangle) drawn with proper matrix isolation.
 - **sketch_250430c** – Creates a colorful generative pattern of circles that shift using Perlin noise.
+- **sketch_250430d** – Generates a dark swirling vortex of lines, using noise to create chaotic, apocalyptic motion.
+- **sketch_250430e** – Displays a colorful grid of rotating squares driven by 3D noise for an abstract digital pattern.
+
