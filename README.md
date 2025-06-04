@@ -11,6 +11,20 @@ This repository contains various sketches written in [Processing (Java mode)](ht
 2. Open any of the sketch folders (e.g. `sketch_250430a`) with the Processing IDE.
 3. Run the sketch to see the animated shapes.
 
+## 🧩 Dependencies
+
+All examples run on standard **Processing (Java mode)** without extra libraries.
+You only need the core Processing package (version 4 or newer). If you wish to
+use the command line tool, download `processing-java` from the official site.
+
+| Sketch | Extra Packages |
+|--------|----------------|
+|`sketch_250430a`|None required|
+|`sketch_250430b`|None required|
+|`sketch_250430c`|None required|
+|`sketch_250430d`|None required|
+|`sketch_250430e`|None required|
+
 ## 📚 Included sketches
 
 - **sketch_250430a** – Demonstrates nested transformations using `pushMatrix()` and `popMatrix()` with a rotating red square, a counter‑rotating blue square, and a pulsating green circle.
