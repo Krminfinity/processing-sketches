@@ -8,7 +8,10 @@ void setup() {
 
 void draw() {
   background(0, 0, 0, 10);             // ゆっくりフェードして残像を作る
+
   pushMatrix();
+
+
   translate(width/2, height/2);        // 画面中心を基準に描画
 
   int layers = 120;                    // レイヤー数を増やして複雑さを出す
@@ -30,5 +33,8 @@ void draw() {
   float pulse = 20 + 10 * sin(radians(frameCount * 3));
   stroke(0, 0, 100, 60);
   ellipse(0, 0, pulse, pulse);
+
   popMatrix();                        // 中心基準の変換を戻す
+
+
 }
