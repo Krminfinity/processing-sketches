@@ -21,4 +21,13 @@ void draw() {
   fill(0, 0, 255);                // 塗りつぶし色を青に設定
   rect(0, 0, 50, 50);             // 原点 (0, 0) に四角形を描画
   popMatrix();                    // 座標変換を元に戻す
+
+  // ----------- 緑の円を追加で描画するブロック -----------
+  pushMatrix();                    // 座標変換状態を保存
+  translate(200, 50);              // 円の描画位置に原点を移動
+  float scaleFactor = 1 + 0.5 * sin(radians(frameCount * 2)); // 拡大縮小を追加
+  scale(scaleFactor);              // 毎フレームサイズを変化させる
+  fill(0, 255, 0);                 // 塗りつぶし色を緑に設定
+  ellipse(0, 0, 40, 40);           // 40x40 の円を描画
+  popMatrix();                    // 座標変換を元に戻す
 }
