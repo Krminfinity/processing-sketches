@@ -14,6 +14,9 @@ void draw() {
 
   pushMatrix();
 
+  pushMatrix();
+
+
 
   translate(width/2, height/2);    // 画面中央を基準に描画
   for (int i = 0; i < count; i++) {
@@ -33,8 +36,11 @@ void draw() {
     ellipse(0, 0, 30, 30);
     popMatrix();
   }
+  popMatrix();                     // 中央基準の変換を元に戻す
+
 
   popMatrix();                     // 中央基準の変換を元に戻す
+
 
 
 }

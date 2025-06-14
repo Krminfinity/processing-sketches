@@ -12,6 +12,10 @@ void draw() {
   int cols = 10;
   int rows = 10;
 
+
+  int cols = 10;
+  int rows = 10;
+
   int cols = GRID_COLS;
   int rows = GRID_ROWS;
 
@@ -19,6 +23,9 @@ void draw() {
   float cellH = height / float(rows);
   for (int i = 0; i < cols; i++) {
     for (int j = 0; j < rows; j++) {
+
+      float n = noise(i * 0.2, j * 0.2, t);
+
 
       float n = noise(i * 0.2, j * 0.2, t);
 
@@ -33,7 +40,11 @@ void draw() {
 
       rect(0, 0, cellW * 0.8, cellH * 0.8);
 
+
+      rect(0, 0, cellW * 0.8, cellH * 0.8);
+
       rect(0, 0, cellW * RECT_SCALE, cellH * RECT_SCALE);
+
 
       popMatrix();
     }
