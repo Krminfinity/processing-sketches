@@ -11,6 +11,9 @@ This repository contains various sketches written in [Processing (Java mode)](ht
 2. Open any of the sketch folders (e.g. `sketch_250430a`) with the Processing IDE.
 3. Run the sketch to see the animated shapes.
 
+
+=======
+
 ## 🧩 Dependencies
 
 All examples run on standard **Processing (Java mode)** without extra libraries.
@@ -27,6 +30,9 @@ use the command line tool, download `processing-java` from the official site.
 |`sketch_250430f`|None required|
 |`sketch_250430g`|None required|
 |`sketch_250430h`|None required|
+=======
+
+
 
 ## 📚 Included sketches
 
@@ -38,3 +44,7 @@ use the command line tool, download `processing-java` from the official site.
 - **sketch_250430f** – Renders rotating 3D cubes with shifting hues.
 - **sketch_250430g** – Recursively draws a branching fractal tree.
 - **sketch_250430h** – Shows a swarm of particles leaving noisy trails.
+- **sketch_250430f** – Renders a vibrant spiral of moving points that shift using Perlin noise.
+
+
+
