@@ -11,7 +11,27 @@ This repository contains various sketches written in [Processing (Java mode)](ht
 2. Open any of the sketch folders (e.g. `sketch_250430a`) with the Processing IDE.
 3. Run the sketch to see the animated shapes.
 
+## 🧩 Dependencies
 
+All examples run on standard **Processing (Java mode)** without extra libraries.
+You only need the core Processing package (version 4 or newer). If you wish to
+use the command line tool, download `processing-java` from the official site.
+
+| Sketch | Extra Packages |
+|--------|----------------|
+|`sketch_250430a`|None required|
+|`sketch_250430b`|None required|
+|`sketch_250430c`|None required|
+|`sketch_250430d`|None required|
+|`sketch_250430e`|None required|
+|`sketch_250430f`|None required|
+|`sketch_250430g`|None required|
+|`sketch_250430h`|None required|
+|`sketch_250430i`|None required|
+|`sketch_250430j`|None required|
+|`sketch_250430k`|None required|
+|`sketch_250430l`|None required|
+|`sketch_250430m`|None required|
 =======
 
 ## 🧩 Dependencies
@@ -44,7 +64,11 @@ use the command line tool, download `processing-java` from the official site.
 - **sketch_250430f** – Renders rotating 3D cubes with shifting hues.
 - **sketch_250430g** – Recursively draws a branching fractal tree.
 - **sketch_250430h** – Shows a swarm of particles leaving noisy trails.
-- **sketch_250430f** – Renders a vibrant spiral of moving points that shift using Perlin noise.
+- **sketch_250430i** – Rotating Squares - A grid of randomly colored squares that rotate based on mouse interaction.
+- **sketch_250430j** – Particle System - Particles attracted to the mouse, leaving trails and changing color based on speed.
+- **sketch_250430k** – Fractal Tree - A recursively drawn tree whose branching is influenced by the mouse.
+- **sketch_250430l** – Perlin Noise Flow Field - An animated field of lines guided by Perlin noise.
+- **sketch_250430m** – Lissajous Curves - Animated Lissajous figures with evolving parameters and colors.
 
 
 
