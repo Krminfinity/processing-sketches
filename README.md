@@ -32,8 +32,10 @@ Below is a list of the included sketches, their descriptions, and any specific p
 | `sketch_250430k` | Fractal Tree: A recursively drawn tree whose branching is influenced by the mouse.                 | None                         |
 | `sketch_250430l` | Perlin Noise Flow Field: An animated field of lines guided by Perlin noise.                        | None                         |
 | `sketch_250430m` | Lissajous Curves: Animated Lissajous figures with evolving parameters and colors.                  | None                         |
+| `sketch_250430n` | Generative typographic art using the Geomerative library to animate letterforms.                 | Geomerative                  |
+| `sketch_250430o` | Interactive fluid simulation using the PixelFlow library, allowing mouse interaction to affect the fluid. | PixelFlow                    |
 
-*Note: All sketches currently run on standard Processing (Java mode) without needing external libraries beyond the core Processing package.*
+*Note: Most sketches run on standard Processing (Java mode) without needing external libraries beyond the core Processing package. Sketches requiring specific external libraries (like Geomerative or PixelFlow) are indicated in the table above. These libraries should be installed in your Processing sketchbook's `libraries` folder.*
 
 ## License
 
