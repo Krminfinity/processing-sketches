@@ -1,74 +1,40 @@
-# processing-sketches
+# Processing Sketches Collection
 
-This repository contains various sketches written in [Processing (Java mode)](https://processing.org/).
+A collection of generative art sketches created with Processing (Java mode).
 
-## 🔧 How to run
+## How to Run
 
-1. Download this repository or clone it:
-   ```bash
-   git clone https://github.com/Krminfinity/processing-sketches.git
-   ```
-2. Open any of the sketch folders (e.g. `sketch_250430a`) with the Processing IDE.
-3. Run the sketch to see the animated shapes.
+1.  **Download Processing**: Ensure you have the [Processing IDE](https://processing.org/download) (version 4 or newer recommended).
+2.  **Clone the Repository**:
+    ```bash
+    git clone https://github.com/USER/REPOSITORY.git
+    ```
+    (Replace `https://github.com/USER/REPOSITORY.git` with the actual URL of this repository)
+3.  **Open a Sketch**: In the Processing IDE, go to `File > Open...` and navigate to one of the sketch folders (e.g., `sketch_250430a`) inside the cloned repository. Select the `.pde` file within that folder.
+4.  **Run the Sketch**: Click the "Run" button (play icon) in the Processing IDE.
 
-## 🧩 Dependencies
+## Sketches
 
-All examples run on standard **Processing (Java mode)** without extra libraries.
-You only need the core Processing package (version 4 or newer). If you wish to
-use the command line tool, download `processing-java` from the official site.
+Below is a list of the included sketches, their descriptions, and any specific package requirements.
 
-| Sketch | Extra Packages |
-|--------|----------------|
-|`sketch_250430a`|None required|
-|`sketch_250430b`|None required|
-|`sketch_250430c`|None required|
-|`sketch_250430d`|None required|
-|`sketch_250430e`|None required|
-|`sketch_250430f`|None required|
-|`sketch_250430g`|None required|
-|`sketch_250430h`|None required|
-|`sketch_250430i`|None required|
-|`sketch_250430j`|None required|
-|`sketch_250430k`|None required|
-|`sketch_250430l`|None required|
-|`sketch_250430m`|None required|
-=======
+| Sketch ID        | Description                                                                                      | Additional Packages Required |
+|------------------|--------------------------------------------------------------------------------------------------|------------------------------|
+| `sketch_250430a` | Demonstrates nested transformations with rotating and pulsating shapes.                          | None                         |
+| `sketch_250430b` | Shows multiple independent objects with proper matrix isolation.                                 | None                         |
+| `sketch_250430c` | Creates a colorful generative pattern of circles shifting with Perlin noise.                       | None                         |
+| `sketch_250430d` | Generates a dark swirling vortex of lines using noise for chaotic motion.                          | None                         |
+| `sketch_250430e` | Displays a colorful grid of rotating squares driven by 3D noise.                                   | None                         |
+| `sketch_250430f` | Renders rotating 3D cubes with shifting hues.                                                    | None                         |
+| `sketch_250430g` | Recursively draws a branching fractal tree.                                                        | None                         |
+| `sketch_250430h` | Shows a swarm of particles leaving noisy trails.                                                   | None                         |
+| `sketch_250430i` | Rotating Squares: A grid of randomly colored squares that rotate based on mouse interaction.       | None                         |
+| `sketch_250430j` | Particle System: Particles attracted to the mouse, leaving trails and changing color with speed.   | None                         |
+| `sketch_250430k` | Fractal Tree: A recursively drawn tree whose branching is influenced by the mouse.                 | None                         |
+| `sketch_250430l` | Perlin Noise Flow Field: An animated field of lines guided by Perlin noise.                        | None                         |
+| `sketch_250430m` | Lissajous Curves: Animated Lissajous figures with evolving parameters and colors.                  | None                         |
 
-## 🧩 Dependencies
+*Note: All sketches currently run on standard Processing (Java mode) without needing external libraries beyond the core Processing package.*
 
-All examples run on standard **Processing (Java mode)** without extra libraries.
-You only need the core Processing package (version 4 or newer). If you wish to
-use the command line tool, download `processing-java` from the official site.
+## License
 
-| Sketch | Extra Packages |
-|--------|----------------|
-|`sketch_250430a`|None required|
-|`sketch_250430b`|None required|
-|`sketch_250430c`|None required|
-|`sketch_250430d`|None required|
-|`sketch_250430e`|None required|
-|`sketch_250430f`|None required|
-|`sketch_250430g`|None required|
-|`sketch_250430h`|None required|
-=======
-
-
-
-## 📚 Included sketches
-
-- **sketch_250430a** – Demonstrates nested transformations using `pushMatrix()` and `popMatrix()` with a rotating red square, a counter‑rotating blue square, and a pulsating green circle.
-- **sketch_250430b** – Shows multiple independent objects (two squares and a spinning triangle) drawn with proper matrix isolation.
-- **sketch_250430c** – Creates a colorful generative pattern of circles that shift using Perlin noise.
-- **sketch_250430d** – Generates a dark swirling vortex of lines, using noise to create chaotic, apocalyptic motion.
-- **sketch_250430e** – Displays a colorful grid of rotating squares driven by 3D noise for an abstract digital pattern.
-- **sketch_250430f** – Renders rotating 3D cubes with shifting hues.
-- **sketch_250430g** – Recursively draws a branching fractal tree.
-- **sketch_250430h** – Shows a swarm of particles leaving noisy trails.
-- **sketch_250430i** – Rotating Squares - A grid of randomly colored squares that rotate based on mouse interaction.
-- **sketch_250430j** – Particle System - Particles attracted to the mouse, leaving trails and changing color based on speed.
-- **sketch_250430k** – Fractal Tree - A recursively drawn tree whose branching is influenced by the mouse.
-- **sketch_250430l** – Perlin Noise Flow Field - An animated field of lines guided by Perlin noise.
-- **sketch_250430m** – Lissajous Curves - Animated Lissajous figures with evolving parameters and colors.
-
-
-
+This project is licensed under the MIT License - see the LICENSE file for details (if one is present, otherwise assume MIT).
